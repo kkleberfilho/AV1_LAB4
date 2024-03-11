@@ -6,8 +6,9 @@
     
     
    <div class="product-details">
-        <h1>Detalhes do Produto</h1>
-        <h2>{{ $produto['titulo'] }}</h2>
+        <p>Detalhes do Produto</p>
+        <img src="https://picsum.photos/300/200" alt=""/>
+        <h2 class="detail-title">{{ $produto['titulo'] }}</h2>
         <div class="price">{{ $produto['preco'] }}</div>
         <p class="description">{{ $produto['descricao'] }}</p>
     </div>

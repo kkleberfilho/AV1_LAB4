@@ -11,20 +11,23 @@ class ProdutosController extends Controller
         $produtos = [
             [
                 'id' => 0,
+                'image' => 'public\assets\img\placa.jpg',
                 'titulo' => 'Placa de Vídeo Zotac NVIDIA GeForce RTX 3090',
-                'preco' => 'R$ 7000,00',
+                'preco' => 'R$ 7.000,00',
                 'descricao' => 'A placa de vídeo GeForce RTX™ 3090.'
             ],
             [
                 'id' => 1,
+                'image' => 'public\assets\img\processador.jpg',
                 'titulo' => 'AMD Ryzen 5950x3d',
-                'preco' => 'R$ 3500,00',
+                'preco' => 'R$ 3.500,00',
                 'descricao' => 'O processador Ryzen 9 5950X é o modelo topo de linha em desempenho da arquitetura Zen3 da AMD.'
             ],
             [
                 'id' => 2,
+                'image' => 'public\assets\img\memoria.jpg',
                 'titulo' => 'Kit Memória Kingston Fury Beast, 64GB (2x32GB), 3200MHz, DDR4, CL16, Preto',
-                'preco' => 'R$ 1100,00',
+                'preco' => 'R$ 1.100,00',
                 'descricao' => 'A memória VENGEANCE LPX foi projetada para overclocking de alto desempenho.'
             ]
         ];
